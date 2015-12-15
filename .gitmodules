@@ -1,0 +1,3 @@
+[submodule "php/libs/aCurl"]
+	path = php/libs/aCurl
+	url = https://github.com/jkrrv/aCurl.git
