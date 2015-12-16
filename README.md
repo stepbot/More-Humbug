@@ -10,7 +10,7 @@ This project is meant to be a respository of various methods for automating this
 
 ## PHP Implementation
 
-Currently, this project only includes a PHP version, which was written in about 5 minutes and is capable of voting about 80 times per minute. (That's 48 kvotes per hour, and yes, kvote is a legitimate unit of measurement.)
+Currently, this project only includes a PHP version, which was written in about 5 minutes and is capable of voting about 80 times per minute. (That's 4.8 kvotes per hour, and yes, kvote is a legitimate unit of measurement.)
 
 Running PHP scripts requires a moderately specialized software arrangement, so if you don't already know what you're doing in running PHP with cUrl, please don't bother.
 
