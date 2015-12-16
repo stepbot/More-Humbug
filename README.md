@@ -10,9 +10,25 @@ This project is meant to be a respository of various methods for automating this
 
 ## PHP Implementation
 
-Currently, this project only includes a PHP version, which was written in about 5 minutes and is capable of voting about 80 times per minute. (That's 48 kvotes per hour, and yes, kvote is a legitimate unit of measurement.)
+The PHP version, which was written in about 5 minutes and is capable of voting about 80 times per minute. (That's 48 kvotes per hour, and yes, kvote is a legitimate unit of measurement.)
 
 Running PHP scripts requires a moderately specialized software arrangement, so if you don't already know what you're doing in running PHP with cUrl, please don't bother.
+
+## iMacros Implementation
+
+The iMacros implementation of this system can be run without much technical knowhow using the iMacros plugin for Firefox that can be obtained from [here](https://addons.mozilla.org/en-US/firefox/addon/imacros-for-firefox/).
+
+Two version of the Script are included: The "slow" version that includeds a randomized wait time to appear more human like and the "maxSpeed" version that runs as fast as possible
+
+### Installation 
+1. Install the iMacros Plugin for Firefox
+2. Add this file to your iMacros Folder
+	* On OSX YOUR-USERNAME/iMacros/Macros/
+3. Start the iMacros Plugin in Firefox
+4. Select this script from the sidebar
+5. Select the number of times you want the script to execute
+6. Click the Play(Loop) Button
+7. Christmas Ruined
 
 ## Other Implementations
 

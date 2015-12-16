@@ -1,0 +1,25 @@
+﻿'More-Humbug
+'Simple script to allowing users to automate voting by using the imacros firefox plugin
+
+'Installation Instructions
+'1-Install the iMacros Plugin for Firefox
+'2-Add this file to your iMacros Folder
+'3-Start the iMacros Plugin in Firefox
+'4-Select this script from the sidebar
+'5-Select the number of times you want the script to execute
+'6-Click the Play(Loop) Button
+'7-Christmas Ruined
+
+'Setup
+VERSION BUILD=8940826 RECORDER=FX
+TAB T=1
+SET !ERRORIGNORE YES
+
+'Website
+URL GOTO=http://morefmchoir.com/
+
+'Select School
+TAG POS=1 TYPE=DIV ATTR=TITLE:Select<SP>Delaware<SP>County<SP>Christian<SP>School<SP>Choir<SP>-<SP>I<SP>Saw<SP>Three<SP>Ships&&CLASS:option&&TXT:
+
+'Submit Vote
+TAG POS=2 TYPE=DIV ATTR=TXT:Submit<SP>My<SP>Vote
